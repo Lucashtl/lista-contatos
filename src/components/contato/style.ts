@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 export const Paragrafo = styled.input`
   margin-left: 30px;
+  width: 50%;
   font-size: 20px;
   outline: none;
   background-color: white;
   border: none;
-  width: 100%;
   font-family: 'Handjet', sans-serif;
   font-weight: bold;
 `
@@ -54,6 +54,7 @@ export const BotaoRemover = styled(ButtonEditar)`
 
 export const Container = styled.div`
   display: flex;
+  width: 100%;
 `
 export const ContainerBotao = styled.div`
   display: flex;

@@ -13,6 +13,7 @@ export const Li = styled.li`
 `
 
 export const Ul = styled.ul`
+  overflow-x: hidden;
   li:hover {
     background-color: #eeee;
     padding: 14px;
